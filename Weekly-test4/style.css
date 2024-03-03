@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family:  sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+i{
+    color: #7a7a7a;
+}
+
+nav{
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333333;
+    color: white;
+    position: fixed;
+    z-index: 1;
+  
+}
+
+.logo h3{
+    font-weight: 800 ;
+}
+
+.navlinks ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.hero img{
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+    position: fixed;
+
+}
+
+.heroinfo{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.heroinfo h2{
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       margin: 1rem;
+  
+}
+
+.heroinfo p{
+    width: 55%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 5px;
+ 
+}
+
+.heroinfo button{
+    padding: 18px 35px;
+    margin: 2rem;
+   font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: all  .3s ease;
+}
+
+.heroinfo button:hover{
+    
+    border: 2px solid red;
+    background:  #ffffff ;
+    opacity: 30.0%;
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px 0px  ;
+     border-radius: 5px;
+}
+
+
+.service{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+background: #f2f2f2;
+position: absolute;
+}
+
+.ourService h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    font-weight:  800
+ 
+}
+
+.ourService p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+
+
+
+.serviceCard{
+display: flex;
+justify-content: space-around;
+margin: 6rem;
+flex-wrap: wrap;
+gap: 2.5rem;
+
+
+
+}
+
+.serviceCard .card{
+   width: 363px;
+   height: 331px;
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    justify-content: space-evenly;
+    padding: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: (0, 0, 0, 0.04) 0px 5px 10px 0px
+    
+}
+
+.card img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card h3{
+   font-size: 1.5rem; 
+
+}
+
+.card p{
+    font-size: 1rem;
+    padding: 1rem ;
+    margin:  0 1rem;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+    margin: 6.5rem;
+ 
+}
+
+.aboutus ul li{
+ list-style: none;
+ padding: 1rem;
+ 
+}
+.aboutus ul li h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+padding-bottom: 0.9rem;
+}
+
+.aboutus ul li p{
+    font-size: 1rem;
+}
+.aboutus ul .outteam li{
+    margin: 8px;
+    padding: 0;
+    list-style:  inside;
+}
+
+.contactus{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin: 6rem;
+   
+    
+
+}
+
+.contactus ul {
+    list-style: none;
+    
+   
+}
+.contactus ul li{
+    padding: 8px;
+}
+.contactus ul li p{
+display: inline;
+padding: 20px;
+
+}
+
+.contactform{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  
+}
+
+
+.contactform input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1rem;
+      
+}
+
+.contactform textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.contactform button{
+    width:  30%;
+    height:  50px;
+    font-size: 1.2rem;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.contactform button:hover{
+    background-color: #525252;
+}
+
+@media screen and (max-width: 1070px){ 
+    .heroinfo h2{
+         font-size: 3rem;
+    }
+    .contactform button{
+        width:  100%;
+       
+    }
+    .contactinfo p{
+        font-size: 0.8rem;
+
+    }
+    
+}
+
+@media screen and (max-width:960px)
+{
+    .contactus{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .contactus .contactform{
+        margin-top: 5rem;
+    }
+    
+.serviceCard .card{
+    width: 300px;
+  
+}
+.navlinks{
+    display: none;
+}
+.contactform{
+    width: 100%;
+   }
+
+
+}
+
+@media screen and (max-width:840px) {
+    .heroinfo h2{
+        font-size: 2rem;
+   }
+   .heroinfo p{
+    font-size: 1rem;
+   }
+   .contactform{
+    width: 100%;
+   }
+   .serviceCard .card{
+    width: 250px;
+  
+}
+}
+@media screen and (max-width:700px) {
+    .serviceCard .card{
+        width: 400px;
+}
+}
