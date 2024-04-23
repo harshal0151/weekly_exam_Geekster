@@ -10,4 +10,4 @@ weekly test 5 : https://harshal0151.github.io/weekly_exam_Geekster/js/agecalcula
 
 
 Js : 
-Wekly Test 2 : https://harshal0151.github.io/weekly_exam_Geekster/js/Product-cart/index.html
+Wekly Test 2 : https://harshal0151.github.io/weekly_exam_Geekster/js/add%20to%20cart/index.html
