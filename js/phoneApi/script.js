@@ -8,10 +8,11 @@ let result = [];
 
 async function getDataFromAPI() {
   const response = await fetch(
-    "https://openapi.programming-hero.com/api/phones?search=iphone 13"
+    "https://openapi.programming-hero.com/api/phones?search=samsung"
   );
   result = await response.json();
   show(result.data);
+  console.log(result.data)
 }
 getDataFromAPI();
 
