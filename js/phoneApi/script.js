@@ -164,7 +164,7 @@ async function showmodal(slug) {
         <div id="imgContainer" class="flex justify-center"><img
             src=${data.image} alt=""></div>
           <h3 id="detailsPhoneName" class="font-bold text-lg mt-3">${data.name}</h3>
-          <h3 id="detailsBrand" class="py-4">Brand: ${data.brand}</h3>
+          <h3 id="detailsBrand" class="py-4 ">Brand: ${data.brand}</h3>
           <p id="detailsSpec">storage: ${data.mainFeatures.storage} <br>displaySize: ${data.mainFeatures.displaySize} <br>chipSet: ${data.mainFeatures.chipSet} <br>memory: ${data.mainFeatures.memory}
           <br>sensors: ${sensorsString} <br></p>
           <p id="releaseDate" class="my-2">${data.releaseDate}</p>
