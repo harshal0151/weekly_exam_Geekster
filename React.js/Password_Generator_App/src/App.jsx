@@ -66,7 +66,7 @@ function App() {
     <>
   
       <div className="title">
-        <h1>Password Generator
+        <h1>Passwords Generator 
         </h1>
       </div>
   
