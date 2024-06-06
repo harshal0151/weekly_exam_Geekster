@@ -1,5 +1,8 @@
 *Hosted links:
 
+
+HTML & CSS
+
 weekly test 2 : https://harshal0151.github.io/weekly_exam_Geekster/Weekly-test2/index.html
 
 weekly test 3 : https://harshal0151.github.io/weekly_exam_Geekster/weekly-test3/index.html
@@ -9,10 +12,16 @@ weekly test 4 : https://harshal0151.github.io/weekly_exam_Geekster/Weekly-test4/
 weekly test 5 : https://harshal0151.github.io/weekly_exam_Geekster/js/agecalculater/age.html
 
 
-Js : 
 
+Js : 
 
 Wekly Test 2 : https://harshal0151.github.io/weekly_exam_Geekster/js/add%20to%20cart/index.html
 
-
 Wekly Test 3 : https://harshal0151.github.io/weekly_exam_Geekster/js/phoneApi/index.html
+
+
+
+
+React:
+
+Wekly Test 1 : https://passwords-generator2122.vercel.app/
